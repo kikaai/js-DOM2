@@ -92,6 +92,11 @@ I'd leave a blank space for this oxtail soup!
 Append this element to the div id of "comment4"*/
 
 
+var newP = document.createElement("p"); //<= creating a new div element
+newP.id = "update4"; //<= giving it an id so that you can easily access to add styles
+newP.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(newP); //<= appending to the parent element
+
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
 
