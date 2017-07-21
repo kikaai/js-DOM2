@@ -16,6 +16,12 @@ Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
 
+var newPrice = document.getElementById("price2");
+newPrice.innerHTML= "$1,000";
+
+var newAddy = document.getElementById("addy2");
+newAddy.innerHTML= "525 Kapahulu Ave, Honolulu, HI 96815";
+
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
 
@@ -26,6 +32,16 @@ Hours: 6pm - 12am Sun - Sat
 Append this div element to the div id "text3"*/
 
 
+var divElem = document.createElement("div"); //<= creating a new div element
+divElem.id = "hours3"; //<= giving it an id so that you can easily access to add styles
+divElem.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(divElem); //<= appending to the parent element
+
+
+
+// Append this div element to the nameParent div*/
+
+ 
 //4. Kam Bowl
 /*Kam Bowl got no spare time to update their info and business is suffering! Help them regain their kingpin status again.
 
@@ -36,12 +52,24 @@ Price: $$$
 Append this element to the div with the id of 
 "text4"*/
 
+var divElemKam = document.createElement("div"); //<= creating a new div element
+divElemKam.id = "price4"; //<= giving it an id so that you can easily access to add styles
+divElemKam.innerHTML = "Price: $1Million";
+text4.appendChild(divElemKam); //<= appending to the parent element
+
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
 Address: 1620 N. School St, Honolulu, HI 96817
 
 Append this element to the div with the id of 
 "text4"*/
+
+var divElemKamAd = document.createElement("div"); //<= creating a new div element
+divElemKamAd.id = "addy4"; //<= giving it an id so that you can easily access to add styles
+divElemKamAd.innerHTML = "1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(divElemKamAd); //<= appending to the parent element
+
+
 
 /*Create a new div element with an id of "hours4". Inside this div element, give it the following info:
 
