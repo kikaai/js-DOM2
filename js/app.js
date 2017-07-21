@@ -79,6 +79,12 @@ Append this element to the div with the id of
 "text4"
 */
 
+var divElKHours = document.createElement("div"); //<= creating a new div element
+divElKHours.id = "hours4"; //<= giving it an id so that you can easily access to add styles
+divElKHours.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(divElKHours); //<= appending to the parent element
+
+
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
 I'd leave a blank space for this oxtail soup!
