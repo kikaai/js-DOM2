@@ -119,3 +119,30 @@ hours5: Hours: We never close.
 Append the div elements to the div id "text5"
 */
 
+var newDivD = document.createElement("div"); //<= creating a new div element
+newDivD.id = "name5"; //<= giving it an id so that you can easily access to add styles
+newDivD.innerHTML = "5. the Death Star Cafe";
+text5.appendChild(newDivD); //<= appending to the parent element
+
+
+var newDivR = document.createElement("div"); //<= creating a new div element
+newDivR.id = "rating5"; //<= giving it an id so that you can easily access to add styles
+newDivR.innerHTML = "Rating: 2 Stars";
+text5.appendChild(newDivR); //<= appending to the parent element
+
+var newDivPr = document.createElement("div"); //<= creating a new div element
+newDivPr.id = "price5"; //<= giving it an id so that you can easily access to add styles
+newDivPr.innerHTML = "Price: Free";
+text5.appendChild(newDivPr); //<= appending to the parent element
+
+
+var newDivAd = document.createElement("div"); //<= creating a new div element
+newDivAd.id = "addy5"; //<= giving it an id so that you can easily access to add styles
+newDivAd.innerHTML = "A galaxy far, far away";
+text5.appendChild(newDivAd); //<= appending to the parent element
+
+var newDivH = document.createElement("div"); //<= creating a new div element
+newDivH.id = "hours5"; //<= giving it an id so that you can easily access to add styles
+newDivH.innerHTML = "We never close";
+text5.appendChild(newDivH); //<= appending to the parent element
+
